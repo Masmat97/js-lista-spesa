@@ -15,11 +15,17 @@ const lista = [
     
 // }
 
+const listaElement = document.querySelector("ul")
+
 let i = 0;
 while (i < lista.length) {
     
     const element = lista[i];
     console.log(i, element);
     i++;
+    
+    const elemento = document.createElement("li");
+    elemento.innerText = element;
+    listaElement.append(elemento);
     
 }
