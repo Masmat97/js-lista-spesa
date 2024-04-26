@@ -1,0 +1,4 @@
+-Crea un arrey con una serie di elementi.
+-Usare ciclo FOR per stampare in console.
+-Convertire il ciclo FOR in ciclo WHILE.
+-Stampare in pagina all'interno di<li>.
