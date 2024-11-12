@@ -1,4 +1,4 @@
-const lista = [
+let lista = [
     "Pane",
     "Latte",
     "Biscotti",
@@ -8,24 +8,21 @@ const lista = [
     "Frutta",
 ]
 
-// for (let i = 0; i < lista.length; i++) {
+for (let i = 0; i < lista.length; i++) {
     
-//     const element = lista[i];
-//     console.log(i, element)
     
-// }
-
-const listaElement = document.querySelector("ul")
+}
+console.log(lista)
+let ul = document.getElementById("lista");
 
 let i = 0;
 while (i < lista.length) {
     
-    const element = lista[i];
-    console.log(i, element);
+    let li = document.createElement("li");
+    li.textContent = lista[i];
+    ul.appendChild(li);
     i++;
     
-    const elemento = document.createElement("li");
-    elemento.innerText = element;
-    listaElement.append(elemento);
+    
     
 }
